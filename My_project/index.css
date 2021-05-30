@@ -1,0 +1,68 @@
+header {
+  width: 100%;
+  height: 720px;
+  background: url(Rectangle.png);
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+}
+
+.links_from {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.navbar {
+  color: white;
+  margin-left: 10%;
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.logo_up {
+  font-size: 30px;
+}
+
+.title {
+  color: #d4c17f;
+  text-align: center;
+  font-size: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  height: 300px;
+  width: 30%;
+  margin-top: 8%;
+  margin-left: 35%;
+}
+
+.center_vector {
+  margin-left: 45%;
+}
+
+.number_phone {
+  display: flex;
+
+  color: white;
+}
+.location_house {
+  display: flex;
+
+  color: white;
+}
+.number_and_location {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 100%;
+  height: 200px;
+}
